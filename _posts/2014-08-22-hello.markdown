@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Hello"
+date: 2014-08-22 23:23:23 +0200
+comments: true
+categories: 
+---
+
+This will be my public notepad for my musings on software development.

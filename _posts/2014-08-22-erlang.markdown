@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Erlang"
+date: 2014-08-22 23:42:33 +0200
+comments: true
+categories: programming, erlang
+---
+
+During the time between jobs, I started to learn a new programming language. A language that is entirely different
+to C++, where I have the most experience. I chose Erlang. Erlang is a functional programming language for soft-realtime systems.
+Compared to other functional programming languages it is actually used in the real world and industry and not just inside 
+academia.
+
