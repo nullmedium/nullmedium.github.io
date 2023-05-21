@@ -5,8 +5,11 @@ permalink: /CV/
 ---
 
 Dipl.-Inf. (FH)
+
 Jens Luedicke
+
 Krumbacherstr. 11
+
 80798 München
 
 <jens.luedicke@pm.me>
