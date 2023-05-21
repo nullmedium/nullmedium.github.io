@@ -27,7 +27,7 @@ github_username: nullmedium
 
 # Build settings
 # theme: minima
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+theme: "minimal-mistakes-jekyll"
 plugins:
   - jekyll-feed
 
