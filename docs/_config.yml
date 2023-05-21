@@ -26,12 +26,45 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: nullmedium
 
 # Build settings
-theme: minima
+# theme: minima
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
   - jekyll-feed
 
 domain: nullmedium.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: https://nullmedium.github.io  # the base hostname and protocol for your site, e.g. http://example.com
+
+# Site Author
+author:
+  name             : "Jens Luedicke" # *name is a YAML reference pointing to the &anchor earlier
+  avatar           : "/assets/images/jens_klein.png"
+  bio              : "Software developer based in Munich, Germany."
+  location         : "Munich, Germany"
+  links:
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon-square"
+      url: "https://muenchen.social/@nullmedium"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/nullmedium"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/nullmedium"
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
