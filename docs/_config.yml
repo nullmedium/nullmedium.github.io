@@ -27,9 +27,10 @@ github_username: nullmedium
 
 # Build settings
 # theme: minima
-theme: "minimal-mistakes-jekyll"
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 domain: nullmedium.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: https://nullmedium.github.io  # the base hostname and protocol for your site, e.g. http://example.com

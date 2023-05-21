@@ -18,9 +18,10 @@ group :jekyll_plugins do
   gem "github-pages"
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-include-cache"
+  gem "jekyll-remote-theme"
 end
 
-gem "minimal-mistakes-jekyll", "4.13.0"
+gem "minimal-mistakes-jekyll", "4.24.0"
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
