@@ -72,7 +72,7 @@ defaults:
       related: true
 
 analytics:
-  provider: "google"
+  provider: "google-gtag"
   google:
     tracking_id: "G-0KRFHG8BLH"
     anonymize_ip: false
