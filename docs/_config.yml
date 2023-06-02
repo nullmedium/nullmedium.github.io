@@ -72,9 +72,10 @@ defaults:
       related: true
 
 analytics:
-provider: "google"
-google:
-  tracking_id: "G-0KRFHG8BLH"
+  provider: "google"
+  google:
+    tracking_id: "G-0KRFHG8BLH"
+    anonymize_ip: false
 
 # Exclude from processing.
 # The following items will not be processed, by default.
