@@ -71,6 +71,10 @@ defaults:
       share: true
       related: true
 
+analytics:
+provider: "google"
+google:
+  tracking_id: "G-0KRFHG8BLH"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
